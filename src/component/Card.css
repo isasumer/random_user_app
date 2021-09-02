@@ -1,0 +1,29 @@
+.card {
+width:35%;
+height:55vh;
+box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px;
+background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.header, .infos{
+    display:flex;
+    flex-direction: row;
+    justify-content:start;
+}
+#img {
+    border-radius:100px;
+    width: 25%;
+    padding:15px;
+}
+#name{
+    padding:30px;
+}
+.infos, .info{
+    align-items: center;
+    margin-left:50px;
+}
+.bottom {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
