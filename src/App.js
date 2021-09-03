@@ -21,7 +21,7 @@ const App = () => {
           <Card key={item.phone} item ={item}/>
         ))}
         <div>
-        <button id="btn" onClick= {handleClick}>Refresh Page</button>
+        <button id="btn" onClick= {handleClick}>New User</button>
         </div>
       </div>
 
