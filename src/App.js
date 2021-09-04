@@ -3,14 +3,14 @@ import React, {useState, useEffect} from "react"
 import Card from "./component/Card"
 import "./App.css"
 
+
 const App = () => {
   const [itemList, setItemList] = useState ([]);
 
   useEffect(() => {
-  
-    axios.get("https://randomuser.me/api/").then((res)=>setItemList(res.data.results))
+    handleClick ()
   }, [])
-
+  
   const handleClick = () => {
     return (
     axios.get("https://randomuser.me/api/").then((res)=>setItemList(res.data.results))
@@ -21,7 +21,7 @@ const App = () => {
           <Card key={item.phone} item ={item}/>
         ))}
         <div>
-        <button id="btn" onClick= {handleClick}>New User</button>
+        <button id="btn" onClick={handleClick} >New User</button>
         </div>
       </div>
 

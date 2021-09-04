@@ -1,5 +1,5 @@
 {
-"homepage": "https://isasumer.github.io/random_user_app/",
+  "homepage": "https://isasumer.github.io/random_user_app/",
   "name": "random_user",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
